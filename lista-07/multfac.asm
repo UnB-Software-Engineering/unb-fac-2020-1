@@ -1,0 +1,8 @@
+multfac:
+	mul $t2, $a0, $a1
+	
+	mfhi $t0		# resto
+	
+	mflo $t1		# resultado
+	
+	jr $ra			# retorna
